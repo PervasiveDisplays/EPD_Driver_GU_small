@@ -65,7 +65,7 @@ For further wiring guidance, check out the User Manuals of [EXT2](https://www.pe
 ``` c++
 //------------------------------------------------------------
 // DEMO Image Set <Comment out when in User Mode>
-// Screen Size: 154, 213, 266, 271, 287, 370, 420, 437, 581, 741
+// Screen Size: 154, 213, 266, 271, 287, 370, 420, 437
 #define SCREEN 271
 #include "globalupdate_src/demoImageData.h"
 // User Mode Image Set
