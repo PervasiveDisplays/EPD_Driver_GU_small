@@ -1,7 +1,7 @@
 # Introduction
  *  This library code implements the driving code of [Aurora(V231) or Spectra EPDs with iTC driver](https://www.pervasivedisplays.com/products/epd-product-selection/) made by [Pervasive Displays Inc (PDi)](https://www.pervasivedisplays.com/). This is compatible with either [EPD Extension Kit Gen 2 (EXT2)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-2-ext2/) and [EPD Extension Kit Gen 3 (EXT3)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-ext3/).
  *  It implements the global update mode (GU). However, the same code for fast and partial update are shared upon request. Contact [PDi](https://www.pervasivedisplays.com/technical-support/) for further details.
- *  The library supports the following EPD sizes: 1.54", 2.13", 2.66", 2.71", 2.87", 3.70", 4.20", 4.37", 5.81", 7.41"
+ *  The library supports the following EPD sizes: 1.54", 2.13", 2.66", 2.71", 2.87", 3.70", 4.20", 4.37"
  *  This library was tested with Launchpad (Tiva-C) with TM4C123, MSP432P401R, Arduino M0 Pro, and Raspberry Pi Pico.
  *	Driving code for Large-sized EPD (9" and greater) will soon be included in a later release.
 
