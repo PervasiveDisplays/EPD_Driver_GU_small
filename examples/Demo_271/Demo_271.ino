@@ -30,6 +30,8 @@ void setup()
 
   // Global Update Call
   epdtest.globalUpdate(BW_monoBuffer, BW_0x00Buffer);
+  delay(1000);
+  epdtest.globalUpdate(BWR_blackBuffer, BWR_redBuffer);
 
   // Turn off CoG
   epdtest.COG_powerOff();
