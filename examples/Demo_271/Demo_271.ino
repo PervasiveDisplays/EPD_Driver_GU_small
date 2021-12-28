@@ -14,7 +14,7 @@
 
 // DEMO Image Set <Comment out when in User Mode>
 // Screen Size: 154, 213, 266, 271, 287, 370, 420, 437
-#define SCREEN 437
+#define SCREEN 271
 #include "globalupdate_src/demoImageData.h"
 // User Mode Image Set
 //#include "globalupdate_src/userImageData.h"
