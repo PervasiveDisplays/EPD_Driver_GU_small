@@ -57,9 +57,9 @@ For further wiring guidance, check out the User Manuals of [EXT2](https://www.pe
  *  The sample code implements a global update functionality for a [2.71" Spectra R2.0 EPD (CE2271JS094)](https://www.pervasivedisplays.com/product/2-71-e-ink-display-spectra-r2-0/).  
  
  First, a BW(black and white) image is flashed.  
- <p align="center"><img src="https://github.com/PervasiveDisplays/EPD_Driver_GU_small/blob/main/examples/EPD_Driver_demo/globalupdate_src/images/2.71/271_264x176_BW.bmp"></p>
+  <p align="center"><img src="https://github.com/PervasiveDisplays/EPD_Driver_GU_small/blob/main/examples/Demo_271/globalupdate_src/images/2.71/271_264x176_BW.bmp"></p>
  After a second, a BWR (black, white, red) image follows.  
- <p align="center"><img src="https://github.com/PervasiveDisplays/EPD_Driver_GU_small/blob/main/examples/EPD_Driver_demo/globalupdate_src/images/2.71/271_264x176_BWR.bmp"></p>
+ <p align="center"><img src="https://github.com/PervasiveDisplays/EPD_Driver_GU_small/blob/main/examples/Demo_271/globalupdate_src/images/2.71/271_264x176_BWR.bmp"></p>
  
  *  The demo currently includes sample images for all the supported EPD sizes mentioned above. To implement global update demo on these other sizes, update the following lines
 ``` c++
