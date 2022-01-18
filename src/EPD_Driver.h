@@ -47,7 +47,6 @@ class EPD_Driver
 {
 	// Data structures
 	pins_t spi_basic = {0};
-  LUT_data ltb;
 	
   public:
 
