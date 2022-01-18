@@ -73,21 +73,6 @@
 // const uint16_t EPD_idx[] = {0x15, 0x21, 0x26, 0x27, 0x28, 0x37, 0x41, 0x43, 0x58, 0x74};
 // const long image_data_size[] = { 2888, 2756, 5624, 5808, 4736, 12480, 15000, 10560, 23040, 48000};
 
-
-struct LUT_data
-{
-	uint8_t panelSet[2];
-	uint8_t vcomIntrval[1];
-	uint8_t vcomDC[1];
-	uint8_t PLLframert[1];
-	uint8_t lutC[42];
-	uint8_t lutWb_W[42];
-	uint8_t lutBW_R[42];
-	uint8_t lutWW[42];
-	uint8_t lutBB_B[42];
-	uint8_t vcomIntrval_fix[1];
-};
-
 /// @name 2- List of pre-configured boards
 /// @{
 
