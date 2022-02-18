@@ -98,7 +98,7 @@ struct pins_t
     // uint8_t panelSDA;
     uint8_t panelCS;
     uint8_t panelON_EXT2;
-    uint8_t panelSPI43_EXT2;
+    uint8_t panelSPI43_EXT2; ///< BS
     uint8_t flashCS;
 };
 
@@ -126,7 +126,7 @@ const pins_t boardLaunchPad_EXT2 =
     .panelReset = 10, ///< EXT3 pin 5 Yellow
     .panelCS = 19,
     .panelON_EXT2 = 11,
-    .panelSPI43_EXT2 = 17,
+    .panelSPI43_EXT2 = 17, ///< BS
     .flashCS = 18
 };
 
@@ -154,7 +154,7 @@ const pins_t boardRaspberryPiPico_RP2040_EXT2 =
     .panelReset = 11, ///< EXT3 pin 5 Yellow -> GP11
     .panelCS = 17,
     .panelON_EXT2 = 8,
-    .panelSPI43_EXT2 = 7,
+    .panelSPI43_EXT2 = 7, ///< BS
     .flashCS = 10
 };
 
@@ -182,7 +182,7 @@ const pins_t boardArduinoM0Pro_EXT2 =
     .panelReset = 6, ///< EXT3 pin 5 Yellow
     .panelCS = 8,
     .panelON_EXT2 = 11,
-    .panelSPI43_EXT2 = 9,
+    .panelSPI43_EXT2 = 9, ///< BS
     .flashCS = NOT_CONNECTED
 };
 
@@ -197,7 +197,22 @@ const pins_t boardESP32DevKitC_EXT3 =
     .panelReset = 25, ///< EXT3 pin 5 Yellow -> GPIO25
     .panelCS = 32, ///< EXT3 pin 9 Grey -> GPIO32
 	.panelON_EXT2 = NOT_CONNECTED,
-    .panelSPI43_EXT2 = NOT_CONNECTED,
+    .panelSPI43_EXT2 = NOT_CONNECTED, ///< BS
+    .flashCS = 33 ///< EXT3 pin 8 Violet -> GPIO33
+};
+
+///
+/// @brief Espressif ESP32-DevKitC
+/// @note Numbers refer to GPIOs not pins
+///
+const pins_t boardESP32DevKitC_EXT2 =
+{
+    .panelBusy = 27, ///< EXT3 pin 3 Red -> GPIO27
+    .panelDC = 26, ///< EXT3 pin 4 Orange -> GPIO26
+    .panelReset = 25, ///< EXT3 pin 5 Yellow -> GPIO25
+    .panelCS = 32, ///< EXT3 pin 9 Grey -> GPIO32
+	.panelON_EXT2 = 16,
+    .panelSPI43_EXT2 = 17, ///< BS
     .flashCS = 33 ///< EXT3 pin 8 Violet -> GPIO33
 };
 

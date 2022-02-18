@@ -2,8 +2,8 @@
  *  This library code implements the driving code of [Aurora(V231) or Spectra EPDs with iTC driver](https://www.pervasivedisplays.com/products/epd-product-selection/) made by [Pervasive Displays Inc (PDi)](https://www.pervasivedisplays.com/). This is compatible with either [EPD Extension Kit Gen 2 (EXT2)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-2-ext2/) and [EPD Extension Kit Gen 3 (EXT3)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-ext3/).
  *  It implements the global update mode (GU). However, the same code for fast and partial update are shared upon request. Contact [PDi](https://www.pervasivedisplays.com/technical-support/) for further details.
  *  The library supports the following EPD sizes: 1.54", 2.13", 2.66", 2.71", 2.87", 3.70", 4.20", 4.37"
- *  This library was tested with Launchpad (Tiva-C) with TM4C123, MSP432P401R, Arduino M0 Pro, and Raspberry Pi Pico.
- *	Driving code for Large-sized EPD (9" and greater) will soon be included in a later release.
+ *  This library was tested with Launchpad (Tiva-C) with TM4C123, MSP432P401R, Arduino M0 Pro, Raspberry Pi Pico, and ESP32DevKitC.
+
 
 # Installation
   Download the ZIP file of this library and install as instructed in [Arduino](https://www.arduino.cc/en/guide/libraries) or Energia.
@@ -51,6 +51,19 @@
     PNLON = 8	only for EXT2
     BS = 7	only for EXT2
  ```
+ 
+   *  If using ESP32DevKitC,
+  ```
+    SCK = 18 
+    BUSY = 27  
+    D/C = 26
+    RST = 25
+    MOSI = 19
+    ECSM = 32
+    PNLON = 16	only for EXT2
+    BS = 17	only for EXT2
+ ```
+ 
 For further wiring guidance, check out the User Manuals of [EXT2](https://www.pervasivedisplays.com/wp-content/uploads/2019/06/EPD-Extension-Kit-Gen2-EXT2_User-Guide_Rev08_20191111.pdf) and [EXT3](https://www.pervasivedisplays.com/wp-content/uploads/2021/01/User-Manual-of-EXT3_Rev01_Jan-2021-1.pdf).
 
 # EPD_Driver Demo
