@@ -185,6 +185,22 @@ const pins_t boardArduinoM0Pro_EXT2 =
     .panelSPI43_EXT2 = 9,
     .flashCS = NOT_CONNECTED
 };
+
+///
+/// @brief Espressif ESP32-DevKitC
+/// @note Numbers refer to GPIOs not pins
+///
+const pins_t boardESP32DevKitC_EXT3 =
+{
+    .panelBusy = 27, ///< EXT3 pin 3 Red -> GPIO27
+    .panelDC = 26, ///< EXT3 pin 4 Orange -> GPIO26
+    .panelReset = 25, ///< EXT3 pin 5 Yellow -> GPIO25
+    .panelCS = 32, ///< EXT3 pin 9 Grey -> GPIO32
+	.panelON_EXT2 = NOT_CONNECTED,
+    .panelSPI43_EXT2 = NOT_CONNECTED,
+    .flashCS = 33 ///< EXT3 pin 8 Violet -> GPIO33
+};
+
 /// @}
 
 ///
