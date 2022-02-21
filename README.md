@@ -58,7 +58,7 @@
     BUSY = 27  
     D/C = 26
     RST = 25
-    MOSI = 19
+    MOSI = 23
     ECSM = 32
     PNLON = 16	only for EXT2
     BS = 17	only for EXT2
