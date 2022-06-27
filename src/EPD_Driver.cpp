@@ -235,23 +235,17 @@ void EPD_Driver::globalUpdate(const uint8_t * data1s, const uint8_t * data2s)
 //			- pointer to data char array
 //			- length/size of data
 void EPD_Driver::_sendIndexData( uint8_t index, const uint8_t *data, uint32_t len )
-{
-	uint32_t tempp = 500;
-	
+{	
 	digitalWrite( spi_basic.panelDC, LOW );      //DC Low
 	digitalWrite( spi_basic.panelCS, LOW );      //CS Low
-	delayMicroseconds(tempp);
 	SPI.transfer(index);
-	delayMicroseconds(tempp);
 	digitalWrite( spi_basic.panelCS, HIGH );     //CS High
 	digitalWrite( spi_basic.panelDC, HIGH );     //DC High
 	digitalWrite( spi_basic.panelCS, LOW );      //CS Low
-	delayMicroseconds(tempp);
 	for ( uint32_t i = 0; i < len; i++ )
 	{
 		SPI.transfer(data[ i ]);
 	}
-	delayMicroseconds(tempp);
 	digitalWrite( spi_basic.panelCS, HIGH );     //CS High
 }
 
