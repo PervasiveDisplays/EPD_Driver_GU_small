@@ -100,3 +100,8 @@ For further wiring guidance, check out the User Manuals of [EXT2](https://www.pe
  *  [EPD Extension Kit Gen 3 (EXT3)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-ext3/)
  *  [24/7 Support Service](https://www.pervasivedisplays.com/technical-support/)
 
+# Licence
+
+**Copyright** &copy; Pervasive Displays, 2010-2023
+
+**Licence** [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](./LICENCE.md)
