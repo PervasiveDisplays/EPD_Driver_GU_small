@@ -98,7 +98,7 @@ For further wiring guidance, check out the User Manuals of [EXT2](https://www.pe
  *  [PDi Product Line up](https://www.pervasivedisplays.com/products/)
  *  [EPD Extension Kit Gen 2 (EXT2)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-2-ext2/)
  *  [EPD Extension Kit Gen 3 (EXT3)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-ext3/)
- *  [24/7 Support Service](https://www.pervasivedisplays.com/technical-support/)
+ *  [Support Service](https://www.pervasivedisplays.com/technical-support/)
 
 # Licence
 
