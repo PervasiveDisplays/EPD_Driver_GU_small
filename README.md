@@ -1,3 +1,6 @@
+> [!WARNING]
+> This library is deprecated. It is only kept to support global/normal update for BWR or Spectra EPDs. If you are using BW wide-temperature with Fast Update support, you need to use the latest library here: https://github.com/PervasiveDisplays/Pervasive_Wide_Small
+
 # Introduction
  *  This library code implements the driving code of [Aurora(V231) or Spectra EPDs with iTC driver](https://www.pervasivedisplays.com/products/epd-product-selection/) made by [Pervasive Displays Inc (PDi)](https://www.pervasivedisplays.com/). This is compatible with either [EPD Extension Kit Gen 2 (EXT2)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-2-ext2/) and [EPD Extension Kit Gen 3 (EXT3)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-ext3/).
  *  It implements the global update mode (GU). However, the same code for fast and partial update are shared upon request. Contact [PDi](https://www.pervasivedisplays.com/technical-support/) for further details.
